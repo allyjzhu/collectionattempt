@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "ART173 Collection",
+			"path": "../ART173 Collection"
+		},
+		{
+			"name": "AllyWeb",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AllyWeb"
+	}
+}

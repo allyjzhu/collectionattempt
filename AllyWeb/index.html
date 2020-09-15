@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    
+
+
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url('page2-1.jpg');
+            background-size: cover;
+            text-align: center;
+        }
+
+        a{
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+
+        .wrapper{
+            width: 750px;
+            height: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="ui three item menu">
+        <a class="item" href="index.html">Page 1</a>
+        <a class="item" href="pageone.html">Page2</a>
+        <a class="item" href="pageTwo.html">Page 3</a>
+    </nav>
+
+    <img id = "imageOne" src = "page2-2.jpg" onclick = "changeImage()"/>
+      
+    <script>
+      var image =  document.getElementById("imageOne");
+      
+      function changeImage() {
+      if (image.getAttribute('src') == "page2-2.jpg") {
+          image.src = "page2-3.jpg"; 
+      } else {
+          image.src = "page2-2.jpg";
+      }
+      }
+      </script>
+</body>
+</html>
